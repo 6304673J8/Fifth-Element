@@ -1,0 +1,10 @@
+Grupo: 
+Albert Faro
+Georghe Julca
+
+Controles
+A y D - Moverse hacia los lados
+
+SPACE - Saltar
+
+I J K L - Invocar Elementos

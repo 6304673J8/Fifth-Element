@@ -9,6 +9,9 @@ TagManager:
   - Earth
   - Air
   - Door
+  - FireBlock
+  - Door2
+  - Magma
   layers:
   - Default
   - TransparentFX

@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     //public Transform groundPoint;
     //public LayerMask whatIsGround;
     //private bool isGrounded = true;
-    private int indexScene = 0;
+    private int indexScene;
     public float walkSpeed, jumpSpeed;
 
     //Animator
@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        indexScene = 0;
         walkSpeed = 6f;
         jumpSpeed = 8f;
         rb = GetComponent<Rigidbody2D>();
@@ -65,16 +66,28 @@ public class PlayerMovement : MonoBehaviour
     {
         if(collision.CompareTag("Door"))
         {
-            if(indexScene == 0)
-            {
-                SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
-                indexScene++;
-            }
+            SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+        }
 
-            if(indexScene == 1)
-            {
-                SceneManager.LoadScene("VictoryScene", LoadSceneMode.Single);
-            }
+        if(collision.CompareTag("Door2"))
+        {
+            SceneManager.LoadScene("VictoryScene", LoadSceneMode.Single);
+        }
+
+        if(collision.CompareTag("FireBlock"))
+        {
+            SceneManager.LoadScene("TutorialSceneBackup", LoadSceneMode.Single);
+        }
+    }
+
+
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Magma"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }

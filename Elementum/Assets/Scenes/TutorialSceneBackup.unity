@@ -202,6 +202,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: FireBlock
+      objectReference: {fileID: 0}
     - target: {fileID: 2224293644168054962, guid: f78d9f465f94f9344b7a6fe07611e7c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -408,6 +413,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FireBlock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: FireBlock
       objectReference: {fileID: 0}
     - target: {fileID: 2224293644168054962, guid: f78d9f465f94f9344b7a6fe07611e7c8,
         type: 3}
@@ -733,6 +743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: FireBlock
+      objectReference: {fileID: 0}
     - target: {fileID: 2224293644168054962, guid: f78d9f465f94f9344b7a6fe07611e7c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1005,6 +1020,11 @@ PrefabInstance:
     - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
         type: 3}
       propertyPath: m_Name
+      value: FireBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
+        type: 3}
+      propertyPath: m_TagString
       value: FireBlock
       objectReference: {fileID: 0}
     - target: {fileID: 2224293644168054962, guid: f78d9f465f94f9344b7a6fe07611e7c8,
@@ -1421,6 +1441,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: FireBlock
+      objectReference: {fileID: 0}
     - target: {fileID: 2224293644168054962, guid: f78d9f465f94f9344b7a6fe07611e7c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1489,6 +1514,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FireBlock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: FireBlock
       objectReference: {fileID: 0}
     - target: {fileID: 2224293644168054962, guid: f78d9f465f94f9344b7a6fe07611e7c8,
         type: 3}
@@ -1559,6 +1589,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: FireBlock
+      objectReference: {fileID: 0}
     - target: {fileID: 2224293644168054962, guid: f78d9f465f94f9344b7a6fe07611e7c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1627,6 +1662,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FireBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: FireBlock
       objectReference: {fileID: 0}
     - target: {fileID: 2224293644168054962, guid: f78d9f465f94f9344b7a6fe07611e7c8,
         type: 3}
@@ -8048,6 +8088,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: FireBlock
+      objectReference: {fileID: 0}
     - target: {fileID: 2224293644168054962, guid: f78d9f465f94f9344b7a6fe07611e7c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8462,6 +8507,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 89909566828483990, guid: f78d9f465f94f9344b7a6fe07611e7c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: FireBlock
+      objectReference: {fileID: 0}
     - target: {fileID: 2224293644168054962, guid: f78d9f465f94f9344b7a6fe07611e7c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8623,12 +8673,12 @@ PrefabInstance:
     - target: {fileID: 6573861397165036012, guid: 283bf2c59b245024b8a73c2023daf6f4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.511
+      value: 17.56
       objectReference: {fileID: 0}
     - target: {fileID: 6573861397165036012, guid: 283bf2c59b245024b8a73c2023daf6f4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.853
+      value: -5.15
       objectReference: {fileID: 0}
     - target: {fileID: 6573861397165036012, guid: 283bf2c59b245024b8a73c2023daf6f4,
         type: 3}
