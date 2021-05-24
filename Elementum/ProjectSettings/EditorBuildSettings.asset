@@ -6,10 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-<<<<<<< Updated upstream
-    path: Assets/Scenes/TutorialScene.unity
-=======
-    path: Assets/Scenes/TutorialSceneBackup.unity
->>>>>>> Stashed changes
+    path: Assets/Scenes/TEBackup2.unity
     guid: 94eb61cbe8c635e40900ca575a816983
   m_configObjects: {}
