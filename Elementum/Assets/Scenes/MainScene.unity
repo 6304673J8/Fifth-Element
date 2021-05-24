@@ -2768,7 +2768,7 @@ PrefabInstance:
     - target: {fileID: 1000686483756515411, guid: 0db51e95045f5e14cbaa43df14f9fc79,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.49
+      value: -9.87
       objectReference: {fileID: 0}
     - target: {fileID: 1000686483756515411, guid: 0db51e95045f5e14cbaa43df14f9fc79,
         type: 3}
@@ -2830,6 +2830,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.02
       objectReference: {fileID: 0}
+    - target: {fileID: 6147036925953853493, guid: 0db51e95045f5e14cbaa43df14f9fc79,
+        type: 3}
+      propertyPath: m_ForceMagnitude
+      value: 80
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0db51e95045f5e14cbaa43df14f9fc79, type: 3}
 --- !u!1001 &3628425309987534665
@@ -2839,6 +2844,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1093538493626090533, guid: ac38f934ff201f34c8704c44c67cabdb,
+        type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093538493626090533, guid: ac38f934ff201f34c8704c44c67cabdb,
+        type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093538493626090533, guid: ac38f934ff201f34c8704c44c67cabdb,
+        type: 3}
+      propertyPath: CollisionModule.collisionMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093538493626090533, guid: ac38f934ff201f34c8704c44c67cabdb,
+        type: 3}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913990966586145472, guid: ac38f934ff201f34c8704c44c67cabdb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Air
+      objectReference: {fileID: 0}
     - target: {fileID: 3628425309095471942, guid: ac38f934ff201f34c8704c44c67cabdb,
         type: 3}
       propertyPath: m_Offset.y
