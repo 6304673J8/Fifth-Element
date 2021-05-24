@@ -14,7 +14,6 @@ public class shootPar : MonoBehaviour
 
     public void AirAtt(InputAction.CallbackContext ctx)
     {
-        Debug.Log("fkfkfkfkf0");
         air_particles.Play();
     }
 

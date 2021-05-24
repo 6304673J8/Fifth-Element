@@ -9,11 +9,6 @@ public class PlayerMovement : MonoBehaviour
     Vector2 move;
     Rigidbody2D rb;
     public bool canMove = false;
-    //bool facingRight = true;
-    [SerializeField] ParticleSystem water_particles;
-    [SerializeField] ParticleSystem fire_particles;
-    [SerializeField] ParticleSystem earth_particles;
-    [SerializeField] ParticleSystem air_particles;
     //Platform Check
     //public Transform groundPoint;
     //public LayerMask whatIsGround;
@@ -52,9 +47,6 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(move.x * walkSpeed, rb.velocity.y);
-
-        //check if grounded
-        //isGrounded = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsGround);
     }
 
     public void Move(InputAction.CallbackContext ctx)
@@ -67,11 +59,5 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
         }
-    }
-
-    public void AirAtt(InputAction.CallbackContext ctx)
-    {
-        Debug.Log("fkfkfkfkf0");
-        air_particles.Play();
     }
 }
