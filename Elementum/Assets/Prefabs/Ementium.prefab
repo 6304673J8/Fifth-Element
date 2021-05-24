@@ -166,8 +166,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65fa28ece6faebc49933258ebabe0c07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canMove: 0
+  groundPoint: {fileID: 0}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
   walkSpeed: 0
   jumpSpeed: 0
+  animator: {fileID: 0}
 --- !u!114 &5628898079243282091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,9 +186,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f8eb2a941c8afb49a94866283d9447e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  water_particles: {fileID: 0}
-  fire_particles: {fileID: 0}
-  earth_particles: {fileID: 0}
+  water_particles: {fileID: 1230200041273948314, guid: 9a83011ab73128c4aa602270aa43a688,
+    type: 3}
+  fire_particles: {fileID: 6085680529141055836, guid: ac7fb3a579b55dd4d8afc572d7ad9fe3,
+    type: 3}
+  earth_particles: {fileID: 55444693466738157, guid: 2bf2f4fc4d6d19e46a9f00ac958607a7,
+    type: 3}
 --- !u!114 &3926559506712940869
 MonoBehaviour:
   m_ObjectHideFlags: 0
