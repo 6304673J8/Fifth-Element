@@ -7,7 +7,7 @@ public class iceBlock : MonoBehaviour
     public float destroying;
     public float destroyDelay = 0.01f;
     public Animator anim;
-
+    [SerializeField] ParticleSystem steam;
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -24,6 +24,7 @@ public class iceBlock : MonoBehaviour
     {
         anim.SetTrigger("isDestroyed");
         destroying += Time.deltaTime;
+        steam.Play();
         if (destroying >= destroyDelay)
         {
             Destroy(gameObject);
