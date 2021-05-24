@@ -43,4 +43,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85465cef39de2964198cc34313654a6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: WaterAttack
+    clip: {fileID: 8300000, guid: d9bdce7c344faf24f95a1729d2b3d1e5, type: 3}
+    volume: 0.275
+    source: {fileID: 0}
+  - name: FireAttack
+    clip: {fileID: 8300000, guid: 291355132c595a4449e996802b12d96d, type: 3}
+    volume: 0.082
+    source: {fileID: 0}
+  - name: AirAttack
+    clip: {fileID: 8300000, guid: 738b15ced69dbb441bc92fc098bab0dc, type: 3}
+    volume: 0.106
+    source: {fileID: 0}
+  - name: EarthAttack
+    clip: {fileID: 8300000, guid: 670486e5cbb7b584f87f75b21e25d934, type: 3}
+    volume: 0.106
+    source: {fileID: 0}
