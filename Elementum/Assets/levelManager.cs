@@ -7,7 +7,7 @@ public class levelManager : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("A_Scene",LoadSceneMode.Single);
+        SceneManager.LoadScene("TutorialScene",LoadSceneMode.Single);
     }
 
 
