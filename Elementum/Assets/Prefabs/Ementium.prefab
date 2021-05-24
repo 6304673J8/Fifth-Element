@@ -154,7 +154,7 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
   m_Size: {x: 0.45196444, y: 0.709375}
   m_EdgeRadius: 0
@@ -186,6 +186,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f8eb2a941c8afb49a94866283d9447e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shootpar: 0
+  shootpardelay: 1
   water_particles: {fileID: 1023253569}
   fire_particles: {fileID: 1879226017}
   earth_particles: {fileID: 305150420}
