@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     //public Transform groundPoint;
     //public LayerMask whatIsGround;
     //private bool isGrounded = true;
-
+    private int indexScene = 0;
     public float walkSpeed, jumpSpeed;
 
     //Animator
@@ -65,7 +65,16 @@ public class PlayerMovement : MonoBehaviour
     {
         if(collision.CompareTag("Door"))
         {
-            SceneManager.LoadScene("MainScene",LoadSceneMode.Single);
+            if(indexScene == 0)
+            {
+                SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+                indexScene++;
+            }
+
+            if(indexScene == 1)
+            {
+                SceneManager.LoadScene("VictoryScene", LoadSceneMode.Single);
+            }
         }
     }
 }
