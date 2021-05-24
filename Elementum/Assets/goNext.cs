@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class GoBackToMenu : MonoBehaviour
+
+
+public class goNext : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,10 +17,4 @@ public class GoBackToMenu : MonoBehaviour
     {
         
     }
-
-    public void returnMenu()
-    {
-        SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
-    }
-
 }

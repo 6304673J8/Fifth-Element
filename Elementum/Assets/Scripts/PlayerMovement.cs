@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     //Movement
@@ -58,6 +58,15 @@ public class PlayerMovement : MonoBehaviour
         if (GroundCheck.isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+        }
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Door"))
+        {
+            SceneManager.LoadScene("MainScene",LoadSceneMode.Single);
         }
     }
 }

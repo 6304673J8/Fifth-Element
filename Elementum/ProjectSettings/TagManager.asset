@@ -8,6 +8,7 @@ TagManager:
   - Fire
   - Earth
   - Air
+  - Door
   layers:
   - Default
   - TransparentFX

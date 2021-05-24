@@ -14,19 +14,23 @@ public class shootPar : MonoBehaviour
 
     public void AirAtt(InputAction.CallbackContext ctx)
     {
+        FindObjectOfType<SoundManager>().Play("AirAttack");
         air_particles.Play();
     }
 
     public void WaterAtt(InputAction.CallbackContext ctx)
     {
+        FindObjectOfType<SoundManager>().Play("WaterAttack");
         water_particles.Play();
     }
     public void FireAtt(InputAction.CallbackContext ctx)
     {
+        FindObjectOfType<SoundManager>().Play("FireAttack");
         fire_particles.Play();
     }
     public void EarthAtt(InputAction.CallbackContext ctx)
     {
+        FindObjectOfType<SoundManager>().Play("EarthAttack");
         earth_particles.Play();
     }
 }
