@@ -7,6 +7,7 @@ public class fireBlock : MonoBehaviour
     public float destroying;
     public float destroyDelay = 0.01f;
     public Animator anim;
+    public GameObject burntblock;
 
     private void Start()
     {
@@ -27,6 +28,7 @@ public class fireBlock : MonoBehaviour
         if (destroying >= destroyDelay)
         {
             Destroy(gameObject);
+            GameObject k = Instantiate(burntblock, transform.position, transform.rotation);
         }
     }
 }
