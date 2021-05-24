@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         walkSpeed = 6f;
-        jumpSpeed = 6f;
+        jumpSpeed = 8f;
         rb = GetComponent<Rigidbody2D>();
     }
 
