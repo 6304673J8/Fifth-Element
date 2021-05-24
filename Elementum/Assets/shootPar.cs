@@ -8,8 +8,9 @@ public class shootPar : MonoBehaviour
     [SerializeField] ParticleSystem water_particles;
     [SerializeField] ParticleSystem fire_particles;
     [SerializeField] ParticleSystem earth_particles;
+    [SerializeField] ParticleSystem air_particles;
 
-   
+
     // Update is called once per frame
     void Update()
     {
@@ -20,4 +21,6 @@ public class shootPar : MonoBehaviour
     {
         
     }
+
+  
 }
