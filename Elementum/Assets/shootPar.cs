@@ -1,26 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class shootPar : MonoBehaviour
 {
-
     [SerializeField] ParticleSystem water_particles;
     [SerializeField] ParticleSystem fire_particles;
     [SerializeField] ParticleSystem earth_particles;
     [SerializeField] ParticleSystem air_particles;
 
+    public Animator animator;
 
-    // Update is called once per frame
-    void Update()
+    public void AirAtt(InputAction.CallbackContext ctx)
     {
-      
+        Debug.Log("fkfkfkfkf0");
+        air_particles.Play();
     }
 
-    private void FixedUpdate()
+    public void WaterAtt(InputAction.CallbackContext ctx)
     {
-        
+        water_particles.Play();
     }
-
-  
+    public void FireAtt(InputAction.CallbackContext ctx)
+    {
+        fire_particles.Play();
+    }
+    public void EarthAtt(InputAction.CallbackContext ctx)
+    {
+        earth_particles.Play();
+    }
 }

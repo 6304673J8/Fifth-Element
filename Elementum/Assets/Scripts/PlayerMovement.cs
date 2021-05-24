@@ -10,7 +10,10 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
     public bool canMove = false;
     //bool facingRight = true;
-
+    [SerializeField] ParticleSystem water_particles;
+    [SerializeField] ParticleSystem fire_particles;
+    [SerializeField] ParticleSystem earth_particles;
+    [SerializeField] ParticleSystem air_particles;
     //Platform Check
     //public Transform groundPoint;
     //public LayerMask whatIsGround;
@@ -32,8 +35,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        //isGrounded = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsGround);
 
         animator.SetFloat("speed", Mathf.Abs(rb.velocity.x));
         animator.SetBool("isGrounded", GroundCheck.isGrounded);
@@ -59,8 +60,6 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext ctx)
     {
         move.x = ctx.ReadValue<Vector2>().x;
-        //move.y = ctx.ReadValue<Vector2>().y;
-
     }
     public void Jump(InputAction.CallbackContext ctx)
     {
@@ -68,5 +67,11 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
         }
+    }
+
+    public void AirAtt(InputAction.CallbackContext ctx)
+    {
+        Debug.Log("fkfkfkfkf0");
+        air_particles.Play();
     }
 }
